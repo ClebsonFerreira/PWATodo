@@ -1,0 +1,15 @@
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-light-fresh-and-fresh-literary-food-banner-background-image_184091.jpg');
+    background-size: cover;
+    height: 40%;
+  }
+
+  mat-card-header{
+      background-color: gray;
+  }
+  table {
+    width: 100%;
+  }
