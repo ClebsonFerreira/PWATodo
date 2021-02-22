@@ -16,11 +16,13 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { CardapioBaseComponent } from './cardapio-base/cardapio-base.component';
 import {MatTableModule} from '@angular/material/table';
+import { AdminBaseComponent } from './admin-base/admin-base.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardapioBaseComponent
+    CardapioBaseComponent,
+    AdminBaseComponent
   ],
   imports: [
     BrowserModule,
